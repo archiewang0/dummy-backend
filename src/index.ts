@@ -8,7 +8,6 @@ const port = config.port || 8080;
 const server: http.Server = http.createServer(app);
 
 // db.sequelize.sync().then(() => {
-  
 // });
 
 server.listen(port, () => {
