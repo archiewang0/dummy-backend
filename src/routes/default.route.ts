@@ -15,6 +15,10 @@ class DefaultRoute extends Route {
         this.router.get("/hello", (req, res) => {
             this._defaultController.helloworld(req, res);
         });
+
+        this.router.get("/env-data", (req, res) => {
+            this._defaultController.envData(req, res);
+        });
     }
 }
 

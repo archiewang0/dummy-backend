@@ -14,3 +14,8 @@ visit:
 http://localhost:3050/hello
 ```
 
+add .env file in root
+```
+TEST_VARIABLE 
+TEST_VARIABLE2
+```

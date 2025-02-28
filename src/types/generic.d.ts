@@ -6,7 +6,7 @@ declare interface ServiceResponse<T> {
 
 declare namespace Express {
     interface Response {
-        jetSend: (body: {
+        dataSend: (body: {
             code: number;
             message?: string;
             data?: any;

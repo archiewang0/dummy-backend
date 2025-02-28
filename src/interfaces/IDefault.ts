@@ -3,6 +3,11 @@ export namespace IDefault {
         data: string
     }
 
+    export interface IEnvData {
+        envData?: string,
+        envData2?: string
+    }
+
     export interface IDefaultModel {
         id?: string;
         name?: string;

@@ -5,9 +5,9 @@ const jetResponse = async (
     res: Response,
     next: NextFunction
 ) => {
-    res.jetSend = function (body: ServiceResponse<any>) {
+    res.dataSend = function (body: ServiceResponse<any>) {
         if (body.code !== 200) 
-            console.error(`Error in jetSend: ${body.message}`);
+            console.error(`Error : ${body.message}`);
         return res.json(body);
     };
 

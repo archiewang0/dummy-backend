@@ -5,7 +5,7 @@ class SystemController {
     private _systemService: SystemService = new SystemService();
 
     async version(req: Request, res: Response) {
-        return res.jetSend(await this._systemService.version());
+        return res.dataSend(await this._systemService.version());
     }
 }
 
